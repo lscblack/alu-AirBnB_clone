@@ -1,23 +1,17 @@
 #!/usr/bin/python3
 """
-This module contains the City class (Blueprint for creating City objects).
+    Module that creates 'City' class
 """
-
 from models.base_model import BaseModel
 
 
 class City(BaseModel):
     """
-    This is the city class
-
-    Attributes:
-        state_id (str): The state id
-        name (str): The name of the city
+        Class to manage city objects
+        Represent a city with state id and name
+        Attributes:
+            state_id (str): state id of the city
+            name (str): name of the city
     """
     state_id = ""
     name = ""
-
-    def __init__(self, *args, **kwargs):
-        super().__init__(*args, **kwargs)
-        # self.name = City.name
-        # self.state_id = City.state_id
