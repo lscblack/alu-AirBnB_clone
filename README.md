@@ -1,15 +1,15 @@
-<h1 align="center">alu-AirBnB</h1>
+<h1 align="center">Alu-AirBnB</h1>
 <p align="center">An AirBnB clone.</p>
 
 ---
 
-## Description :house:
+## Description :computer:
 
 HBnB is a complete web application, integrating database storage, 
 a back-end API, and front-end interfacing in a clone of AirBnB. This is the first step towards building a full web application: an AirBnB clone. This first step consists of a custom command-line interface for data management, and the base classes for the storage of this data.
 
 
-## Usage :computer:
+## Usage 
 
 The console works both in interactive mode and non-interactive mode, much like a Unix shell.
 It prints a prompt **(hbnb)** and waits for the user for input.
@@ -36,7 +36,7 @@ Documented commands (type help <topic>):
 EOF  all  count  create  destroy  help  quit  show  update
 ```
 
-## Models :penguin:
+## Models 
 
 The folder [models](./models/) contains all the classes used in this project.
 
